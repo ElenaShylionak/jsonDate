@@ -1,0 +1,80 @@
+﻿// в массивах для каждого магазина сохраняются отдельные суммы скидок и кэшбэков. Это позволит вести учет накопленных сумм по каждому магазину отдельно.
+ //"transactions": массив, содержащbq информацию о транзакциях. 
+// "store_name": назавние магазина,
+ // date — массив дат, когда произошли события
+// "currency": валюта (рубли и мили - валюта банка)
+// "expenditure": расход (вложенный массив)
+// "cashbacks": кешбек (вложенный массив)
+//"type_operation": тип операций
+//"additional_bonuses": дополнительный бонусы и акции
+
+{
+  "history_cashback_discounts": [
+    {
+      "date": "2023-03-27",
+      "transactions": [
+        {
+          "store_name": "Азбука вкуса",
+          "currency": "рубли",
+          "type_operation": "Покупки",
+          "expenditure": [ -10000.99 ],
+          "cashbacks": [ 500.11 ]
+        },
+        {
+          "store_name": "Пятерочка",
+          "currency": "рубли",
+          "type_operation": "Предложения партнеров",
+          "expenditure": [ -5000.99 ],
+          "cashbacks": [ 750, 99 ]
+        }
+      ]
+    },
+    {
+      "date": "2023-03-25",
+      "transactions": [
+        {
+          "store_name": "Пятёрочка",
+          "type_operation": "Отмена покупки",
+          "currency": "рубли",
+          "expenditure": [ 3000.99 ],
+          "cashbacks": [ -150 ]
+        },
+        {
+          "store_name": "Пятёрочка",
+          "currency": "рубли",
+          "type_operation": "Предложения партнеров",
+          "expenditure": [ -5000 ],
+          "cashbacks": [ 150.99 ]
+        },
+        {
+          "store_name": "Перекрёсток",
+          "currency": "мили",
+          "type_operation": "Предложения партнеров",
+          "expenditure": [ -4000.99 ],
+          "cashbacks": []
+        },
+        {
+          "store_name": "Lamoda",
+          "currency": "мили",
+          "type_operation": "предложения партнеров",
+          "expenditure": [ -1000, 99 ],
+          "cashbacks": [ 200.99 ]
+        },
+        {
+          "store_name": "Лента",
+          "type_operation": "покупки",
+          "currency": "рубли",
+          "expenditure": [ -5000.99 ],
+          "cashbacks": [ 250.99 ]
+        },
+        {
+          "additional_bonuses": "Дополнительный бонус",
+          "currency": "рубли",
+          "type_operation": "Специальная акция",
+          "expenditure": [],
+          "cashbacks": [ 50.99 ]
+        }
+      ]
+    }
+  ]
+}

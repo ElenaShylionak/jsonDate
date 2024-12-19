@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?style type="text/xsl" href="tij_menu.xsl" ?>
+
+<cashback_discounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="history_cashback_discounts.xsd">
+  
+    <history_cashback_discounts>
+        <transaction date="2023-03-27">
+            <store_name>Азбука вкуса</store_name>
+            <currency>рубли</currency>
+            <type_operation>Покупки</type_operation>
+            <expenditure>-10000.99</expenditure>
+            <cashbacks>500.11</cashbacks>
+        </transaction>
+        <transaction date="2023-03-27">
+            <store_name>Пятерочка</store_name>
+            <currency>рубли</currency>
+            <type_operation>Предложения партнеров</type_operation>
+            <expenditure>-5000.99</expenditure>
+            <cashbacks>750.99</cashbacks>
+        </transaction>
+        <transaction date="2023-03-25">
+            <store_name>Пятёрочка</store_name>
+            <type_operation>Отмена покупки</type_operation>
+            <currency>рубли</currency>
+            <expenditure>3000.99</expenditure>
+            <cashbacks>-150</cashbacks>
+        </transaction>
+        <transaction date="2023-03-25">
+            <store_name>Пятёрочка</store_name>
+            <currency>рубли</currency>
+            <type_operation>Предложения партнеров</type_operation>
+            <expenditure>-5000</expenditure>
+            <cashbacks>150.99</cashbacks>
+        </transaction>
+        <transaction date="2023-03-25">
+            <store_name>Перекрёсток</store_name>
+            <currency>мили</currency>
+            <type_operation>Предложения партнеров</type_operation>
+            <expenditure>-4000.99</expenditure>
+            <cashbacks></cashbacks>
+        </transaction>
+        <transaction date="2023-03-25">
+            <store_name>Lamoda</store_name>
+            <currency>мили</currency>
+            <type_operation>предложения партнеров</type_operation>
+            <expenditure>-1000.99</expenditure>
+            <cashbacks>200.99</cashbacks>
+        </transaction>
+        <transaction date="2023-03-25">
+            <store_name>Лента</store_name>
+            <type_operation>покупки</type_operation>
+            <currency>рубли</currency>
+            <expenditure>-5000.99</expenditure>
+            <cashbacks>250.99</cashbacks>
+        </transaction>
+        <transaction date="2023-03-25">
+            <additional_bonuses>Дополнительный бонус</additional_bonuses>
+            <currency>рубли</currency>
+            <type_operation>Специальная акция</type_operation>
+            <expenditure></expenditure>
+            <cashbacks>50.99</cashbacks>
+        </transaction>
+    </history_cashback_discounts>
+</cashback_discounts>

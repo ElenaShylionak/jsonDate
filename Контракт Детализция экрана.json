@@ -1,0 +1,154 @@
+{
+  "title": "Кэшбек и скидки",
+  "header": {},
+  "totalAmount": {
+    "value": 60150,
+    "currency": "RUR",
+    "minorUnits": 100
+  },
+  "subtitle": "За все время",
+  "sections": [
+    {
+      "name": "Общая сумма в рублях",
+      "amount": {
+        "value": 45400,
+        "currency": "RUB"
+      }
+    },
+    {
+      "name": "Рубли",
+      "items": [
+        {
+          "deeplink": null,
+          "iconUrl": "glyph_rub_s",
+          "title": "Категории кэшбэка",
+          "subtitle": "10 покупок",
+          "amount": {
+            "value": 33400,
+            "currency": "RUB",
+            "minorUnits": 100
+          }
+        },
+        {
+          "deeplink": null,
+          "iconUrl": "glyph_rub_s",
+          "title": "От партнеров",
+          "subtitle": "1 покупка",
+          "amount": {
+            "value": 5500,
+            "currency": "RUB",
+            "minorUnits": 100
+          }
+        },
+        {
+          "deeplink": null,
+          "iconUrl": "glyph_rub_s",
+          "title": "От сервисов",
+          "subtitle": "Альфа Тревел",
+          "amount": {
+            "value": 6000,
+            "currency": "RUB",
+            "minorUnits": 100
+          }
+        },
+        {
+          "deeplink": null,
+          "iconUrl": "glyph_rub_s",
+          "title": "Специальные акции",
+          "subtitle": "Акция банка",
+          "amount": {
+            "value": 500,
+            "currency": "RUB",
+            "minorUnits": 100
+          }
+        }
+      ],
+      "type": "money"
+    },
+    {
+      "name": "Общая сумма в милях",
+      "amount": {
+        "value": 11400,
+        "currency": "miles"
+      }
+    },
+    {
+      "name": "Мили",
+      "items": [
+        {
+          "deeplink": null,
+          "iconUrl": "glyph_ml_s",
+          "title": "За покупки",
+          "subtitle": "Альфа Тревел",
+          "amount": {
+            "value": 7000,
+            "currency": "miles",
+            "minorUnits": 100
+          }
+        },
+        {
+          "deeplink": null,
+          "iconUrl": "glyph_ml_s",
+          "title": "От партнеров",
+          "subtitle": "",
+          "amount": {
+            "value": 1400,
+            "currency": "miles",
+            "minorUnits": 100
+          }
+        },
+        {
+          "deeplink": null,
+          "iconUrl": "glyph_ml_s",
+          "title": "От сервисов",
+          "subtitle": "",
+          "amount": {
+            "value": 3000,
+            "currency": "miles",
+            "minorUnits": 100
+          }
+        }
+      ],
+      "type": "miles"
+    },
+    {
+      "name": "Общая сумма других категорий",
+      "amount": {
+        "value": 1000,
+        "currency": "RUB"
+      }
+    },
+    {
+      "name": "Другое",
+      "items": [
+        {
+          "deeplink": null,
+          "iconUrl": "glyph_achievement_s",
+          "title": "Скидки в Анжеро-Судженске",
+          "subtitle": "",
+          "amount": {
+            "value": 850,
+            "currency": "RUB",
+            "minorUnits": 100
+          }
+        },
+        {
+          "deeplink": null,
+          "iconUrl": "glyph_achievement_s",
+          "title": "Акции по картам Мир",
+          "subtitle": "",
+          "amount": {
+            "value": 150,
+            "currency": "RUB",
+            "minorUnits": 100
+          }
+        }
+      ],
+      "type": "other"
+    }
+  ]
+}
+
+
+
+  
